@@ -1,0 +1,14 @@
+{
+  "name": "demoqa-playwright-assignment",
+  "version": "1.0.0",
+  "description": "Playwright UI and API automation for demoqa.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
